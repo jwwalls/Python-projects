@@ -1,7 +1,7 @@
-mask = []
-for x in range(1, 11):
-    mask.append(x*7)
-print(mask) 
+file = {"he": 56, "she":47, "they": 5444, "them": 1234 }
+for peeps in file:
+    print(peeps)
 
-mask = [ x* 7 for x in range(1,11)]
-print(mask)
+for peeps, num in file.items():
+    print("{} is {} years old".format(peeps,num))
+    
